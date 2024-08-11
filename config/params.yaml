@@ -1,0 +1,25 @@
+network_path:
+  value: rsc/jsh
+  dtype: string
+
+model_number:
+  value: 30000
+  dtype: string
+
+p_gain:
+  value: 100.0
+  dtype: double
+
+d_gain:
+  value: 5.0
+  dtype: double
+
+nominal_joint_config_donghoon:
+  value: [0, 0.63026, -1.29938, 0, 0.63026, -1.29938, 0, 0.63026, -1.29938, 0, 0.63026, -1.29938]
+  dtype: vector
+
+plugin:
+  raisin_iekf_plugin: # plugin package name
+    rate:
+      value: 500 # loop frequency
+      dtype: double
