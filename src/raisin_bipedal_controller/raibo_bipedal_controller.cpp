@@ -220,7 +220,7 @@ try {
     locomotion_type_ = 1; // Quadrupedal
   }
 
-  command_ << msg->axes[0], msg->axes[1], 0;
+  command_ << msg->axes[0], msg->axes[1], msg->axes[2];
   command_4_ << command_, locomotion_type_;
   raiboController_.setCommand(command_4_);
 
