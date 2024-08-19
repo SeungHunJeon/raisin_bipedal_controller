@@ -1,9 +1,9 @@
 network_path:
-  value: rsc/jsh/ver2
+  value: rsc/jsh/ver3
   dtype: string
 
 model_number:
-  value: 30000
+  value: 20000
   dtype: string
 
 p_gain:
@@ -13,10 +13,6 @@ p_gain:
 d_gain:
   value: 5.0
   dtype: double
-
-nominal_joint_config_donghoon:
-  value: [0, 0.63026, -1.29938, 0, 0.63026, -1.29938, 0, 0.63026, -1.29938, 0, 0.63026, -1.29938]
-  dtype: vector
 
 plugin:
   raisin_iekf_plugin: # plugin package name
