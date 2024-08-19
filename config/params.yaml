@@ -1,5 +1,5 @@
 network_path:
-  value: rsc/jsh
+  value: rsc/jsh/ver2
   dtype: string
 
 model_number:
