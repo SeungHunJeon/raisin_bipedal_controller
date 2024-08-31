@@ -1,9 +1,9 @@
 network_path:
-  value: rsc/jsh/ver3
+  value: rsc/jsh/ver4
   dtype: string
 
 model_number:
-  value: 20000
+  value: 30000
   dtype: string
 
 p_gain:
@@ -11,7 +11,7 @@ p_gain:
   dtype: double
 
 d_gain:
-  value: 5.0
+  value: 7.0
   dtype: double
 
 plugin:
