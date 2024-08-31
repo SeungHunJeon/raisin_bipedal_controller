@@ -21,6 +21,7 @@ find_package(raisin_interfaces REQUIRED)
 find_package(raisin_data_logger REQUIRED)
 find_package(raisin_raibo REQUIRED)
 find_package(raisim REQUIRED)
+find_package(raisin_iekf_plugin REQUIRED)
 
 add_library(${PROJECT_NAME} SHARED
         src/${PROJECT_NAME}/raibo_bipedal_controller.cpp
@@ -40,6 +41,7 @@ ament_target_dependencies(${PROJECT_NAME}
   raisin_interfaces
   raisin_data_logger
   raisin_raibo
+  raisin_iekf_plugin
 )
 
 ament_export_targets(export_${PROJECT_NAME} HAS_LIBRARY_TARGET)

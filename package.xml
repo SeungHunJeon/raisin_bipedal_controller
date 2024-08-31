@@ -18,6 +18,7 @@
   <depend>raisin_controller</depend>
   <depend>raisin_interfaces</depend>
   <depend>raisin_data_logger</depend>
+  <depend>raisin_iekf_plugin</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
