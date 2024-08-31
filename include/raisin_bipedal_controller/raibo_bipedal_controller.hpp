@@ -47,7 +47,8 @@ class raiboLearningController : public Controller {
       std::shared_ptr<raisin_interfaces::srv::Vector3::Response> response,
       const int locomotion_type
   );
-  void joyCallback(const sensor_msgs::msg::Joy::SharedPtr msg);
+  void commandCallback(const raisin_interfaces::msg::Command::SharedPtr msg);
+  void joySigCallback(const std_msgs::msg::Int16::SharedPtr msg);
 
   raisim::RaiboController raiboController_;
   Eigen::VectorXf obs_;
